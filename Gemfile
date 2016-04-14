@@ -15,9 +15,10 @@ group :doc do
 end
 
 group :development, :test do
-  gem 'rspec-rails', '~>2.0'
+  gem 'rspec-rails', '~>3.4.2'
 end
 
 group :test do
-    gem 'capybara', '~> 2.1.0'
+    gem 'capybara', '~> 2.2.0'
+    gem 'shoulda-matchers', '~>3.1.1'
 end
